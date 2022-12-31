@@ -1,0 +1,1 @@
+Creating a sample accordion widget with Javascript, HTML, and CSS
