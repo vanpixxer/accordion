@@ -50,3 +50,19 @@ body {
     /* ensure smooth transition from closed to open */
     transition: 0.5s;
 }
+
+/* Javascript Styling Link  - use the active class we created in JS */
+.accordion .content-container.active .answer {
+    height: 150px;
+}
+
+.accordion .content-container.active .question {
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+.accordion .content-container.active .question::after {
+    content: '-';
+    font-size: 30px;
+    transition: 0.5s;
+}
